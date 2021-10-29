@@ -1,0 +1,7 @@
+AJUSTES DE USUARIO PARA BASE DE DATOS.
+
+create user 'prueba'@'localhost' identified by 'prueba';
+
+grant all privileges on *.* to prueba@localhost;
+
+
